@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "fix-style": "standard --fix 'assets/js/*.js' && prettier -w *.json",
+    "check-style": "standard 'assets/js/*.js'"
+  },
+  "devDependencies": {
+    "prettier": "^2.3",
+    "standard": "^14.3"
+  }
+}

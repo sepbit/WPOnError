@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+AjaxController	src/Controllers/AjaxController.php	/^class AjaxController {$/;"	c	namespace:Sepbit\\WPOnError\\Controllers
+AnonymousFunction01a6382c0100	assets/js/wponerror.js	/^    function (response) {$/;"	f
+OptionsPageController	src/Controllers/OptionsPageController.php	/^class OptionsPageController {$/;"	c	namespace:Sepbit\\WPOnError\\Controllers
+PostTypeController	src/Controllers/PostTypeController.php	/^class PostTypeController {$/;"	c	namespace:Sepbit\\WPOnError\\Controllers
+SEPBIT_WPONERROR_DIR	wponerror.php	/^define( 'SEPBIT_WPONERROR_DIR', plugin_dir_path( __FILE__ ) );$/;"	d	namespace:Sepbit\\WPOnError
+SEPBIT_WPONERROR_PRE	wponerror.php	/^define( 'SEPBIT_WPONERROR_PRE', '_wponerror' );$/;"	d	namespace:Sepbit\\WPOnError
+SEPBIT_WPONERROR_URL	wponerror.php	/^define( 'SEPBIT_WPONERROR_URL', plugin_dir_url( __FILE__ ) );$/;"	d	namespace:Sepbit\\WPOnError
+SEPBIT_WPONERROR_VER	wponerror.php	/^define( 'SEPBIT_WPONERROR_VER', '1.0.0' );$/;"	d	namespace:Sepbit\\WPOnError
+Sepbit\\WPOnError	wponerror.php	/^namespace Sepbit\\WPOnError;$/;"	n
+Sepbit\\WPOnError\\Controllers	src/Controllers/AjaxController.php	/^namespace Sepbit\\WPOnError\\Controllers;$/;"	n
+Sepbit\\WPOnError\\Controllers	src/Controllers/OptionsPageController.php	/^namespace Sepbit\\WPOnError\\Controllers;$/;"	n
+Sepbit\\WPOnError\\Controllers	src/Controllers/PostTypeController.php	/^namespace Sepbit\\WPOnError\\Controllers;$/;"	n
+ajax	src/Controllers/AjaxController.php	/^	public static function ajax() {$/;"	f	class:Sepbit\\WPOnError\\Controllers\\AjaxController
+custom_fields	src/Controllers/PostTypeController.php	/^	public static function custom_fields() {$/;"	f	class:Sepbit\\WPOnError\\Controllers\\PostTypeController
+onerror	assets/js/wponerror.js	/^window.onerror = function (message, source, lineno, colno, error) {$/;"	f	function:window
+options_page	src/Controllers/OptionsPageController.php	/^	public static function options_page() {$/;"	f	class:Sepbit\\WPOnError\\Controllers\\OptionsPageController
+post_type	src/Controllers/PostTypeController.php	/^	public static function post_type() {$/;"	f	class:Sepbit\\WPOnError\\Controllers\\PostTypeController
+script	src/Controllers/AjaxController.php	/^	public static function script() {$/;"	f	class:Sepbit\\WPOnError\\Controllers\\AjaxController
