@@ -9,7 +9,7 @@ include:
   
 .prepare:
   stage: .prepare
-  image: php:latest
+  image: php:7.4
   cache:
     paths:
       - vendor/
@@ -30,7 +30,7 @@ test:
   script:
     - php composer.phar fix-style
     - php composer.phar check-style
-    # - php composer.phar security
+    - php composer.phar security
 
 deploy:
   stage: deploy
