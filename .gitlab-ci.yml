@@ -37,7 +37,7 @@ deploy:
   extends: .prepare
   only:
     refs:
-      - master
+      - main
   variables:
     BOM_SERVER: "$BOM_SERVER"
     BOM_KEY: "$BOM_KEY"
