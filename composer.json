@@ -17,8 +17,8 @@
     "cyclonedx/cyclonedx-php-composer": "^3.9"
   },
   "scripts": {
-    "fix-style": "phpcbf -p --standard=WordPress wponerror.php src/",
-    "check-style": "phpcs -p --standard=WordPress wponerror.php src/",
+    "fix-style": "phpcbf -p --standard=phpcs.xml wponerror.php src/",
+    "check-style": "phpcs -p --standard=phpcs.xml wponerror.php src/",
     "security" : "phpcs -p --standard=Security wponerror.php src/"
   }
 }
