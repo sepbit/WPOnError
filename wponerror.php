@@ -3,7 +3,7 @@
 Plugin Name: WPOnError
 Plugin URI: https://gitlab.com/sepbit/wponerror
 Description: Register GlobalEventHandlers.onerror in WordPress post type and optionally receive an email via wp_mail
-Version: 1.1.0
+Version: 1.1.1
 Author: Vitor Guia
 Author URI: https://vitor.guia.nom.br
 
