@@ -34,6 +34,9 @@ $ composer update --no-dev
 
 == Changelog ==
 
+= 1.1.1 =
+* Add private post type
+
 = 1.1.0 =
 * Add disable button
 
