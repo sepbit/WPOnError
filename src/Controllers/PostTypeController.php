@@ -1,7 +1,7 @@
 <?php
 /**
- * WPOnError - Register GlobalEventHandlers.onerror in WordPress post type
- * Copyright (C) 2021  Sepbit
+ * WpOnError - Register GlobalEventHandlers.onerror in WordPress post type
+ * Copyright (C) 2021-2022 Vitor Guia
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -17,7 +17,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
- * @package WPOnError
+ * @package WpOnError
  */
 
 namespace Sepbit\WPOnError\Controllers;
@@ -47,10 +47,10 @@ class PostTypeController {
 			'rest_controller_class' => 'WP_REST_Posts_Controller',
 			'has_archive'           => false,
 			'show_in_menu'          => true,
-			'show_in_nav_menus'     => true,
+			'show_in_nav_menus'     => false,
 			'delete_with_user'      => false,
 			'exclude_from_search'   => false,
-			'capability_type'       => 'post',
+			'capability_type'       => 'wponerror',
 			'map_meta_cap'          => true,
 			'hierarchical'          => false,
 			'rewrite'               => array(
