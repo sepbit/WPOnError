@@ -1,7 +1,7 @@
 <?php
 /**
- * WPOnError - Register GlobalEventHandlers.onerror in WordPress post type
- * Copyright (C) 2021  Sepbit
+ * WpOnError - Register GlobalEventHandlers.onerror in WordPress post type
+ * Copyright (C) 2021-2022 Vitor Guia
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -17,7 +17,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  *
- * @package WPOnError
+ * @package WpOnError
  */
 
 namespace Sepbit\WPOnError\Controllers;
