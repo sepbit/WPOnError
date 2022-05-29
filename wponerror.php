@@ -1,20 +1,20 @@
 <?php
 /**
-Plugin Name: WPOnError
+Plugin Name: WpOnError
 Plugin URI: https://gitlab.com/sepbit/wponerror
 Description: Register GlobalEventHandlers.onerror in WordPress post type and optionally receive an email via wp_mail
-Version: 1.1.1
+Version: 1.1.2
 Author: Vitor Guia
 Author URI: https://vitor.guia.nom.br
 
-@package WPOnError
+@package WpOnError
  */
 
 namespace Sepbit\WPOnError;
 
 defined( 'ABSPATH' ) || exit();
 
-define( 'SEPBIT_WPONERROR_VER', '1.1.0' );
+define( 'SEPBIT_WPONERROR_VER', '1.1.2' );
 define( 'SEPBIT_WPONERROR_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SEPBIT_WPONERROR_URL', plugin_dir_url( __FILE__ ) );
 define( 'SEPBIT_WPONERROR_PRE', '_wponerror' );

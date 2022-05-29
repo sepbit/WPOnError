@@ -1,10 +1,10 @@
-=== WPOnError ===
+=== WpOnError ===
 Contributors: vitoranguia
 Donate link: https://liberapay.com/vitoranguia/
 Tags: window.onerror, JavaScript
 Requires at least: 4.7
-Tested up to: 5.8
-Stable tag: 1.1.1
+Tested up to: 6.0
+Stable tag: 1.1.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -33,6 +33,9 @@ $ composer update --no-dev
 2. See a specific post_type
 
 == Changelog ==
+
+= 1.1.2 =
+* Fix post type
 
 = 1.1.1 =
 * Add private post type
